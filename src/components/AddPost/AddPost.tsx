@@ -1,8 +1,8 @@
 import "./addPost.css";
 import InsertPhotoIcon from "@mui/icons-material/InsertPhoto";
-import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
-import LocalOfferIcon from '@mui/icons-material/LocalOffer';
-import LiveTvIcon from '@mui/icons-material/LiveTv';
+import AddLocationAltIcon from "@mui/icons-material/AddLocationAlt";
+import LocalOfferIcon from "@mui/icons-material/LocalOffer";
+import LiveTvIcon from "@mui/icons-material/LiveTv";
 
 function AddPost() {
   return (
@@ -24,21 +24,22 @@ function AddPost() {
         <div className="addPostBottom">
           <div className="addPostOptions">
             <div className="addPostOption">
-              <InsertPhotoIcon className="addPhoto" />
+              <InsertPhotoIcon htmlColor="orange" className="addPhoto" />
               <span className="addPostText">Add Photo/Video</span>
             </div>
             <div className="addPostOption">
-              <AddLocationAltIcon className="addPhoto" />
+              <AddLocationAltIcon htmlColor="red" className="addPhoto" />
               <span className="addPostText">Add Location</span>
             </div>
             <div className="addPostOption">
-              < LocalOfferIcon className="addPhoto" />
+              <LocalOfferIcon htmlColor="blue" className="addPhoto" />
               <span className="addPostText">Add Tag</span>
             </div>
             <div className="addPostOption">
-              < LiveTvIcon className="addPhoto" />
+              <LiveTvIcon htmlColor="tomato" className="addPhoto" />
               <span className="addPostText">Go Live</span>
             </div>
+            <button className="postButton">Post</button>
           </div>
         </div>
       </div>
