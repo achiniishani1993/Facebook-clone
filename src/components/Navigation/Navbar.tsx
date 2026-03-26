@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <div className="navBarbox">
       <div className="navBarLeft">
-        <span className="log">faceBook</span>
+        <span className="log">facebook</span>
       </div>
       <div className="navBarCenter">
         <div className="searchBarBox">
