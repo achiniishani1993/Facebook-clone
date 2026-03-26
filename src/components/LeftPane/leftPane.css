@@ -25,8 +25,33 @@
   font-weight: 400;
 }
 
-.pagePic{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.pagePic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.pagesYouLiked {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: rgb(99, 102, 104);
+  letter-spacing: 0.02rem;
+}
+
+.pageList {
+  padding: 0;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.pageListItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  list-style: none;
 }

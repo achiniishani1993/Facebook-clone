@@ -60,7 +60,8 @@ function Leftpane() {
           <div className="pagesYouLiked">
             <h3>Pages You Liked</h3>
           </div>
-          <li className="pageListItem">
+         <div className="pageList">
+           <li className="pageListItem">
             <img src="/Images/2.png" alt="page profiles" className="pagePic" />
             <span className="pageName">MeetPlace</span>
           </li>
@@ -101,6 +102,7 @@ function Leftpane() {
             <span className="pageName">Lux Jewellery Market</span>
           </li>
 
+         </div>
         </div>
       </div>
     </div>
