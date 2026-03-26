@@ -2,6 +2,7 @@ import Leftpane from "../../components/LeftPane/LeftPane";
 import { Navbar } from "../../components/Navigation/Navbar";
 import PostPane from "../../components/PostPane/PostPane";
 import RightPane from "../../components/RightPane/RightPane";
+import "./home.css";
 
 const Home = () => {
   return (
