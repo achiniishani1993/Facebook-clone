@@ -56,6 +56,51 @@ function Leftpane() {
           < AddShoppingCartIcon className='leftPaneMenuIcon' />
           <span className="leftPaneMenuText">Market</span>
           </li>
+          <hr/>
+          <div className="pagesYouLiked">
+            <h3>Pages You Liked</h3>
+          </div>
+          <li className="pageListItem">
+            <img src="/Images/2.png" alt="page profiles" className="pagePic" />
+            <span className="pageName">MeetPlace</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/3.jpg" alt="page profiles" className="pagePic" />
+            <span className="pageName">Fish & Grill Resturant</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/4.png" alt="page profiles" className="pagePic" />
+            <span className="pageName">Online game station</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/5.jpg" alt="page profiles" className="pagePic" />
+            <span className="pageName">Shooes shooes</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/6.png" alt="page profiles" className="pagePic" />
+            <span className="pageName">Toy Market</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/7.png" alt="page profiles" className="pagePic" />
+            <span className="pageName">Travel with Wife</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/8.png" alt="page profiles" className="pagePic" />
+            <span className="pageName">Hotel Swiss</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/9.png" alt="page profiles" className="pagePic" />
+            <span className="pageName">Sweet Cafe</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/10.jpg" alt="page profiles" className="pagePic" />
+            <span className="pageName">Tatoo shop</span>
+          </li>
+           <li className="pageListItem">
+            <img src="/Images/11.jpg" alt="page profiles" className="pagePic" />
+            <span className="pageName">Lux Jewellery Market</span>
+          </li>
+
         </div>
       </div>
     </div>
