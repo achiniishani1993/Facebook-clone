@@ -2,7 +2,7 @@ import "./post.css";
 import PublicIcon from "@mui/icons-material/Public";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import GroupIcon from '@mui/icons-material/Group';
+
 
 
 function Post() {

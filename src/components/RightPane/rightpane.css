@@ -1,4 +1,127 @@
-.rightPaneBox{
-    background-color: blueviolet;
-    flex: 3;
+.rightPaneBox {
+  flex: 2;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+.rightPaneContainer {
+  padding: 20px 20px 0 0;
+}
+
+.adContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsored {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(107, 107, 108);
+  letter-spacing: 0.02rem;
+}
+.adImage {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.adtext {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.birthImg {
+  width: 50px;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.onlinefriendImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.onlineFriend {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.contacts {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(107, 107, 108);
+  letter-spacing: 0.02rem;
+}
+
+.friendList ul {
+  padding: 0;
+  margin: 0;
+}
+
+.friendListHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.fiendlistHeadLeft {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+.onlinefriendImageContainer {
+  display: flex;
+  position: relative;
+}
+.onlineStatus {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: lime;
+  position: absolute;
+  top: 28px;
+  right: 0;
+  border: 2px solid white;
+}
+
+.onlineFriend:hover {
+  background-color: #f0f2f5;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.chatBox {
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  height: 410px;
+  width: 300px;
+
+  box-shadow: 1px 1px 29px 0px rgba(158, 150, 150, 0.56);
+  -webkit-box-shadow: 1px 1px 29px 0px rgba(158, 150, 150, 0.56);
+  -moz-box-shadow: 1px 1px 29px 0px rgba(158, 150, 150, 0.56);
 }
