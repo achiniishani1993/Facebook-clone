@@ -15,9 +15,14 @@ import CameraAltIcon from "@mui/icons-material/CameraAlt";
 import { useState } from "react";
 
 function RightPane() {
-  const [activeUser, setActiveUser] = useState(null);
+  type User = {
+  name: string;
+  img: string;
+};
 
+const [activeUser, setActiveUser] = useState<User | null>(null);
 
+  
   const users = [
     { name: "Anna Jane", img: "/Images/15.jpg" },
     { name: "Yoga Anetha Thunga", img: "/Images/14.png" },
