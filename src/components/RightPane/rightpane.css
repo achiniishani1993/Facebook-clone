@@ -108,7 +108,6 @@
   background-color: #f0f2f5;
   cursor: pointer;
   border-radius: 10px;
-  padding: 5px;
 }
 
 .chatBox {
@@ -121,7 +120,68 @@
   height: 410px;
   width: 300px;
 
+  display: grid;
+  grid-template-rows: auto 2fr auto;
+
   box-shadow: 1px 1px 29px 0px rgba(158, 150, 150, 0.56);
   -webkit-box-shadow: 1px 1px 29px 0px rgba(158, 150, 150, 0.56);
   -moz-box-shadow: 1px 1px 29px 0px rgba(158, 150, 150, 0.56);
+}
+
+.chatBoxItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.chatBoxItemleft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chatBoxItemRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chatBoxBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+.typemessage {
+  border: none;
+}
+
+.typemessage:focus {
+  outline: none;
+}
+
+.chatBoxBottomIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chatBoxBottomFeature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.chatBoxBottomLike {
+  display: flex;
+  align-items: center;
+}
+
+.connectingIcon {
+  cursor: pointer;
 }
