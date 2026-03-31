@@ -86,3 +86,11 @@
 .pageSearchInput:focus{
   outline: none;
 }
+
+
+.leftPaneMenuItems:hover, 
+.pageListItem:hover {
+  background-color: #f0f2f5;
+  border-radius: 10px;
+  cursor: pointer;
+}
