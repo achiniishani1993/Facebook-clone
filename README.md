@@ -46,11 +46,11 @@ This project focuses on recreating the core layout and user experience of Facebo
 
 
 🛠️ Tech Stack
-# React
-# TypeScript
-# CSS
-# Material UI Icons
-# Font Awesome Icons
+* React
+* TypeScript
+* CSS
+* Material UI Icons
+* Font Awesome Icons
 
 
 👨‍💻 Author
