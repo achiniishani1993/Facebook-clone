@@ -30,6 +30,8 @@ function Post() {
     }
   };
 
+
+  
   return (
     <div className="post">
       <div className="postContainer">
